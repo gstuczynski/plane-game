@@ -37,24 +37,23 @@
 			image-rendering: pixelated;
 			-ms-interpolation-mode: nearest-neighbor;
 		}
-		
 	</style>
 </head>
 
 <body>
 	<div id="gameContainer">
 		<canvas id="unity-canvas" data-pixel-art=""></canvas>
-		<script src="Build/V0.2.loader.js"></script>
+		<script src="Build/V0.3.loader.js"></script>
 		<script>
 			var canvas = document.querySelector("#unity-canvas");
 			var config = {
-				dataUrl: "Build/V0.2.data",
-				frameworkUrl: "Build/V0.2.framework.js",
-				codeUrl: "Build/V0.2.wasm",
+				dataUrl: "Build/V0.3.data",
+				frameworkUrl: "Build/V0.3.framework.js",
+				codeUrl: "Build/V0.3.wasm",
 				streamingAssetsUrl: "StreamingAssets",
 				companyName: "larsfrommars",
 				productName: "Paper Plane",
-				productVersion: "0.2",
+				productVersion: "0.3",
 			};
 			var scaleToFit;
 			try {
